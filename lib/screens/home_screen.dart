@@ -41,7 +41,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     onTap: () {
                       setState(() {
                         isMale = true;
-                        isMale ? true : false;
                       });
                     },
                     isMale: isMale),
@@ -50,7 +49,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     onTap: () {
                       setState(() {
                         isMale = false;
-                        isMale ? false : true;
                       });
                     },
                     isMale: isMale),
